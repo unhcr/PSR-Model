@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="893E9F7B-C636-C0A7-AC61-6038A8B4D87E" directorySegmentName="seg_0" name="STC_GROUP_ATTRIBUTES">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:52:02 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT T_STC_GROUP_ATTRIBUTES.STG_ID,&lt;br/&gt;  T_STC_GROUP_ATTRIBUTES.STGAT_CODE,&lt;br/&gt;  T_STC_GROUP_ATTRIBUTES.CHAR_VALUE,&lt;br/&gt;  T_STC_GROUP_ATTRIBUTES.NUM_VALUE,&lt;br/&gt;  T_STC_GROUP_ATTRIBUTES.DATE_VALUE,&lt;br/&gt;  T_STC_GROUP_ATTRIBUTES.VERSION_NBR,&lt;br/&gt;  T_STC_GROUP_ATTRIBUTES.ITM_ID,&lt;br/&gt;  T_STC_GROUP_ATTRIBUTES.UPDATE_TIMESTAMP&lt;br/&gt;FROM T_STC_GROUP_ATTRIBUTES</userDefinedSQL>
+<layoutSQL>&lt;?xml version = &apos;1.0&apos; encoding = &apos;UTF-8&apos;?&gt;&lt;br&gt;&lt;ActiveQueryBuilderLayout&gt;&lt;SQL&gt;Select T_STC_GROUP_ATTRIBUTES.STG_ID, T_STC_GROUP_ATTRIBUTES.STGAT_CODE, T_STC_GROUP_ATTRIBUTES.CHAR_VALUE, T_STC_GROUP_ATTRIBUTES.NUM_VALUE, T_STC_GROUP_ATTRIBUTES.DATE_VALUE, T_STC_GROUP_ATTRIBUTES.VERSION_NBR, T_STC_GROUP_ATTRIBUTES.ITM_ID, T_STC_GROUP_ATTRIBUTES.UPDATE_TIMESTAMP From T_STC_GROUP_ATTRIBUTES&lt;/SQL&gt;&lt;SubQueries&gt;&lt;SubQuery SQL=&quot;Select T_STC_GROUP_ATTRIBUTES.STG_ID, T_STC_GROUP_ATTRIBUTES.STGAT_CODE, T_STC_GROUP_ATTRIBUTES.CHAR_VALUE, T_STC_GROUP_ATTRIBUTES.NUM_VALUE, T_STC_GROUP_ATTRIBUTES.DATE_VALUE, T_STC_GROUP_ATTRIBUTES.VERSION_NBR, T_STC_GROUP_ATTRIBUTES.ITM_ID, T_STC_GROUP_ATTRIBUTES.UPDATE_TIMESTAMP From T_STC_GROUP_ATTRIBUTES&quot;&gt;&lt;UnionSubQuery&gt;&lt;DataSource SQL=&quot;T_STC_GROUP_ATTRIBUTES&quot; X=&quot;50&quot; Y=&quot;20&quot; Height=&quot;207&quot; Width=&quot;140&quot;/&gt;&lt;/UnionSubQuery&gt;&lt;/SubQuery&gt;&lt;/SubQueries&gt;&lt;/ActiveQueryBuilderLayout&gt;</layoutSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="3633FDE7-936F-0DC3-CD65-9C1C85251F2B"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STG_ID" id="1CAD884F-B0C1-7F1E-8602-9F74F77F8D2C">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>6629DE77-2E2F-D822-CA82-A062BAB9076F</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STGAT_CODE" id="93A8F950-C626-8914-BB59-05538A4C0026">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10)</dataType>
+<reference>false</reference>
+<referencedColumn>4B16E9C5-4992-E4F7-D39B-D938FD6D8EAD</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CHAR_VALUE" id="8E0EF6F9-0FEF-371F-7659-8984770CA4B6">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (1000)</dataType>
+<reference>false</reference>
+<referencedColumn>186ADCED-3556-2269-E360-A78C075C1B65</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NUM_VALUE" id="1EB86D50-328D-8737-8186-0DE08BDDC27C">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>7A41770E-C2AC-B8FD-93A3-C6D7620E0E90</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATE_VALUE" id="643D67A4-4491-A66F-2A81-05AFF66ED947">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<referencedColumn>E6EFF334-D44A-E082-BA65-E79DB358A279</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="VERSION_NBR" id="DC4F01A2-E965-C903-0BB9-05DA58816FDC">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>6ED2FE28-8B4E-07EB-C2D5-902C78AD6D71</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ITM_ID" id="D48A7034-C73E-94B0-E9E0-35D65C18992A">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>BA4924A9-A36D-2BC2-0580-A653777846E5</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="UPDATE_TIMESTAMP" id="7A15FC23-FFA5-A68C-40F5-9C4AFAE67C89">
+<createdBy>Scott</createdBy>
+<createdTime>2013-12-03 11:54:52 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>TIMESTAMP WITH LOCAL TIME ZONE</dataType>
+<reference>false</reference>
+<referencedColumn>262A0D40-E432-D19A-F1A3-D09386F1AB20</referencedColumn>
+<table>3633FDE7-936F-0DC3-CD65-9C1C85251F2B</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3633FDE7-936F-0DC3-CD65-9C1C85251F2B">
+<container>true</container>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6629DE77-2E2F-D822-CA82-A062BAB9076F">
+<columnName>STG_ID</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4B16E9C5-4992-E4F7-D39B-D938FD6D8EAD">
+<columnName>STGAT_CODE</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="186ADCED-3556-2269-E360-A78C075C1B65">
+<columnName>CHAR_VALUE</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7A41770E-C2AC-B8FD-93A3-C6D7620E0E90">
+<columnName>NUM_VALUE</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E6EFF334-D44A-E082-BA65-E79DB358A279">
+<columnName>DATE_VALUE</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6ED2FE28-8B4E-07EB-C2D5-902C78AD6D71">
+<columnName>VERSION_NBR</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BA4924A9-A36D-2BC2-0580-A653777846E5">
+<columnName>ITM_ID</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="262A0D40-E432-D19A-F1A3-D09386F1AB20">
+<columnName>UPDATE_TIMESTAMP</columnName>
+<tableName>T_STC_GROUP_ATTRIBUTES</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>
