@@ -3,43 +3,7 @@
 <createdBy>Scott</createdBy>
 <createdTime>2012-10-23 09:50:20 UTC</createdTime>
 <ownerDesignName>Population Statistics Reference</ownerDesignName>
-<pkName>PK_SIG</pkName>
 <abbreviation>STIG</abbreviation>
-<fonts>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>Title</foType>
-<fontStyle>1</fontStyle>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>Column</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>Datatype</foType>
-<colorRGB>-16744448</colorRGB>
-</FontObject>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>PK Element</foType>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>FK Element</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>UK Element</foType>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>Not Null</foType>
-<colorRGB>-65536</colorRGB>
-</FontObject>
-<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-<foType>Key</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-</fonts>
 <columns>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STC_ID" id="3EFA761A-2215-2940-649D-195AD89047A8">
 <createdBy>Scott</createdBy>
@@ -92,7 +56,7 @@
 <colUsage columnID="3EFA761A-2215-2940-649D-195AD89047A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3650C459-AA89-BB1D-37F0-61B49023FA4B" name="FK_STIG_STCG">
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3650C459-AA89-BB1D-37F0-61B49023FA4B" name="FK_STIG_STG">
 <createdBy>Scott</createdBy>
 <createdTime>2012-10-23 09:52:39 UTC</createdTime>
 <ownerDesignName>Population Statistics Reference</ownerDesignName>
