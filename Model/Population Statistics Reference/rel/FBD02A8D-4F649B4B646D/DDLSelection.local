@@ -1,2 +1,24 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign objectID="FBD02A8D-CBD7-8148-58A8-4F649B4B646D"/>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign objectID="FBD02A8D-CBD7-8148-58A8-4F649B4B646D">
+   <object objectID="7ABB602A-4B9B-9825-D5E2-F62B5C4EE1EF" markedGenerate="false"/>
+   <object objectID="4F1C3AF1-1D7F-3A8D-1D4B-EDEF34532B96" markedGenerate="false"/>
+   <object objectID="48B540FA-C284-266E-537C-6AAB8EE2D6F6" markedGenerate="false"/>
+   <object objectID="1E2D50B2-5129-210B-3441-3F5886607FDD" markedGenerate="false"/>
+   <object objectID="D074E64A-5CEC-C0CA-96EB-BA87618728A2" markedGenerate="false"/>
+   <object objectID="A0CCF336-F94E-3E6E-779B-932E757BDA60" markedGenerate="false"/>
+   <object objectID="BC2C4539-2D1B-17D2-C051-7254D1BA44C6" markedGenerate="false"/>
+   <object objectID="75E33804-EA7F-71C5-D192-2CB6DE5BC278" markedGenerate="false"/>
+   <object objectID="1A4110D8-5003-7E9A-E0C6-3C8ED1BAF3BA" markedGenerate="false"/>
+   <object objectID="DC833284-2AC6-CBBB-407A-C981DF337F35" markedGenerate="false"/>
+   <object objectID="D2B14DCE-3529-99DE-A49F-2D1C6547FC03" markedGenerate="false"/>
+   <object objectID="2236BCA2-2474-80B9-2CD7-E2C1F7D01264" markedGenerate="false"/>
+   <object objectID="6E1DEC3B-AF1B-FCFA-BE57-BAF0CC3CDB70" markedGenerate="false"/>
+   <object objectID="E5728331-74FE-EE71-C6F7-BE4EE9962F3B" markedGenerate="false"/>
+   <object objectID="A7B9134B-8CE6-56A9-0837-E3AA845D3BD4" markedGenerate="false"/>
+   <object objectID="203ABAD8-8A07-7F35-EFB3-F7C9A8203DD0" markedGenerate="false"/>
+   <object objectID="9A0F257D-8C2C-7B4A-FBE7-54488F2340D7" markedGenerate="false"/>
+   <object objectID="61EA9A28-DABE-8763-EC6A-D941096E6EA0" markedGenerate="false"/>
+   <object objectID="B9D9D367-0592-65CF-3D41-F0C6B2EF3CB1" markedGenerate="false"/>
+   <object objectID="2CA2CDEB-1A67-E13F-B4D6-C5ECF8DCD83A" markedGenerate="false"/>
+   <object objectID="2E3EF984-E696-6814-C27E-6F29EF1F8874" markedGenerate="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
