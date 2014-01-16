@@ -1,11 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="B783D507-A4F5-7337-BFA4-B20BC9A5B738" name="PSR" visible="false"/>
+   <object objectType="main_view" objectID="B783D507-A4F5-7337-BFA4-B20BC9A5B738" name="PSR" visible="true"/>
    <object objectType="sub_view" objectID="C091D45B-737C-F9C7-AED4-3C9AD7E3E5F5" name="PSR - T1. Infrastructure Tables" visible="false"/>
-   <object objectType="sub_view" objectID="953899BC-B7C2-D7E2-9273-A09E43C4D977" name="PSR - T2. Business Tables" visible="false"/>
+   <object objectType="sub_view" objectID="953899BC-B7C2-D7E2-9273-A09E43C4D977" name="PSR - T2. Business Tables" visible="true"/>
    <object objectType="sub_view" objectID="10732FDF-4E4E-9F1F-4E6E-94802FC1CB94" name="PSR - T3. Locations" visible="false"/>
    <object objectType="sub_view" objectID="62D32C30-C290-4D4B-1727-AB494FD096B7" name="PSR - T4. PPGs" visible="false"/>
-   <object objectType="sub_view" objectID="A375F4E3-1281-6606-262E-B590C6644C82" name="PSR - T5. Unit Testing" visible="true"/>
+   <object objectType="sub_view" objectID="A375F4E3-1281-6606-262E-B590C6644C82" name="PSR - T5. Unit Testing" visible="false"/>
    <object objectType="sub_view" objectID="45B8603A-A167-9A4F-96A7-928190FD987B" name="PSR - V1. Views" visible="false"/>
    <object objectType="sub_view" objectID="03E384FC-4F98-72D4-E969-0F6848B3BE2F" name="PSR - V2. Complex Views" visible="false"/>
    <object objectType="sub_view" objectID="3192F624-6E21-E54E-5CE4-E7660DE59076" name="PSR - V3. Focus Interface Views" visible="false"/>

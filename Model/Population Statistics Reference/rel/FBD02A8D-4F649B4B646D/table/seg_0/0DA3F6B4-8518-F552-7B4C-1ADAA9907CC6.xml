@@ -314,8 +314,9 @@
 <ownerDesignName>Population Statistics Reference</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7902D946-5C37-B380-3248-80191020E6EF</domain>
 <delegate>2A6FD6C7-5546-B8AB-418B-2F3780605451</delegate>
 <associations>
 <colAssociation fkAssociation="32927A11-2E1B-3413-9C89-7CBBA0FA04BD" referredColumn="2A6FD6C7-5546-B8AB-418B-2F3780605451"/>
@@ -400,6 +401,15 @@
 <indexState>Unique Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="CA1A4C22-EC2B-E587-9E08-010ACB965070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C1786349-0C1C-FAC2-5102-E593596C7A36" name="IX_STC_STG_ID_PRIMARY">
+<createdBy>Scott</createdBy>
+<createdTime>2014-01-15 15:38:37 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3DF66E-C821-4D12-59C5-7F782CD76E97"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CC7B5018-5761-D59B-D7FF-5A7A36C1DBF4" name="FK_STC_AGR">
