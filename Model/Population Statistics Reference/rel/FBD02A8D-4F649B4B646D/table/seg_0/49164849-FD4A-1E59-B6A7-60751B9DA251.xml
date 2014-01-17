@@ -154,6 +154,15 @@
 <colUsage columnID="B078AA41-DB69-7096-E5E7-2E49642A56C5"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="871E48BA-D229-9D0E-86A3-931AEF3570DB" name="IX_LOC_LOCT_CODE">
+<createdBy>Scott</createdBy>
+<createdTime>2014-01-17 09:30:05 UTC</createdTime>
+<ownerDesignName>Population Statistics Reference</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C602828F-21FF-B91D-E7D9-A5B2A0309677"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5DAA687F-9B8A-6C22-2866-68CAF7D5E429" name="FK_LOC_LOCT">
 <createdBy>Scott</createdBy>
 <createdTime>2011-10-26 10:37:49 UTC</createdTime>
